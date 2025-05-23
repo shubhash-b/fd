@@ -1,88 +1,67 @@
-<!doctype html>
-<html lang="en">
-  <head>
-  	<title>Fake Product Identification</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Product Identification</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gray-50">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <a href="index.html" class="flex items-center">
+                        <span class="text-xl font-bold text-primary">Fake Product Identification</span>
+                        <span class="ml-2 text-sm text-gray-600">through Blockchain</span>
+                    </a>
+                </div>
+                <div class="flex items-center">
+                    <div class="hidden md:block">
+                        <div class="flex items-center space-x-4">
+                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="manufacturer.html" class="nav-link">Manufacturer</a>
+                            <a href="seller.html" class="nav-link">Seller</a>
+                            <a href="consumer.html" class="nav-link">Consumer</a>
+                        </div>
+                    </div>
+                    <div class="md:hidden">
+                        <button type="button" class="mobile-menu-button p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
+                            <span class="sr-only">Open menu</span>
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="index.html" class="block nav-link">Home</a>
+                <a href="manufacturer.html" class="block nav-link">Manufacturer</a>
+                <a href="seller.html" class="block nav-link">Seller</a>
+                <a href="consumer.html" class="block nav-link">Consumer</a>
+            </div>
+        </div>
+    </nav>
 
-	</head>
-	<body>
-	<section class="ftco-section">
-		<div class="container-fluid px-md-5">
-			<div class="row justify-content-between">
-				<div class="col-md-8 order-md-last">
-					<div class="row">
-						<div class="col-md-6 text-center">
-							<a class="navbar-brand" href="index.html">Fake Product Identification <span>through Blockchain</span></a>
-						</div>
-						<div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
-							<form action="#" class="searchform order-lg-last">
-			          
-			        </form>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 d-flex">
-					<div class="social-media">
-		    		
-	        </div>
-				</div>
-			</div>
-		</div>
-		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container-fluid">
-	    
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="fa fa-bars"></span> Menu
-	      </button>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav m-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-			  	<li class="nav-item "><a href="manufacturer.html" class="nav-link">Manufacturer</a></li>
-	        	<li class="nav-item"><a href="seller.html" class="nav-link">Seller</a></li>
-	          	<li class="nav-item"><a href="consumer.html" class="nav-link">Consumer</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">Welcome to Fake Product Identification System</h1>
+            <p class="text-xl text-gray-600">Secure and transparent product verification using blockchain technology</p>
+        </div>
+    </main>
 
-
-	</section>
-
-	<div class="container-fluid px-md-5">
-		<div class="row justify-content-between">
-			<div class="col-md-12 order-md-last">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<a class="navbar-brand" href="index.html">WELCOME </a>
-					</div>
-					<div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
-						<form action="#" class="searchform order-lg-last">
-				  
-				</form>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 d-flex">
-				<div class="social-media">
-				
-		</div>
-	</div>
-	</section> 
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/web3.min.js"></script>
-	<script src="js/truffle-contract.js"></script>
- 
-	</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+            document.querySelector('.hidden.md\\:hidden').classList.toggle('hidden');
+        });
+    </script>
+</body>
 </html>
-
-
-
-
